@@ -16,7 +16,7 @@ void printSolution(char board[N][N])
     k++;
 }
 // check if any position is safe
-//i.e if any queen is atacking any other queen
+//i.e if any queen is attacking any other queen
 // in that position
 bool isSafe(char board[N][N], int row, int column)
 {
